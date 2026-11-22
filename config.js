@@ -1,3 +1,2 @@
-// Настройки сайта. Если endpoint пустой — сайт работает в тестовом режиме (заявки сохраняются только в вашем браузере).
-// После развёртывания Worker впишите сюда его адрес, например: "https://internet-est-leads.ваш-аккаунт.workers.dev"
-window.SITE_CONFIG = { endpoint: "", phone: "8 989 613-89-18" };
+// Настройки сайта. Если endpoint пустой, сайт работает в тестовом режиме.
+window.SITE_CONFIG = { endpoint: "https://internet-est-leads.internet-est.workers.dev", phone: "8 989 613-89-18" };
